@@ -35,7 +35,7 @@ $('tr:odd')
 
 $('div:visible')  // 보이게함
 
-$('div:gt(1)') // 1보다 크다
+$('div:gt(1)') // 1보다 크다  반대는 lt
 /*
 <div></div>
 <div></div>
@@ -117,6 +117,6 @@ $('form input[name="gender"]:radio')
 </form>
 */
 
-$('form :rest') // <input type='rest'/>
+$('form :reset') // <input type='reset'/>
 
 $('form :submit') // <input type='submit'/>
